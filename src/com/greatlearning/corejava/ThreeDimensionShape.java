@@ -2,6 +2,7 @@ package com.greatlearning.corejava;
 
 public class ThreeDimensionShape {
 	double width,height,depth;
+	
 
 	public ThreeDimensionShape() {
 		width=height=depth=0;
@@ -16,6 +17,7 @@ public class ThreeDimensionShape {
 	}
 	public double volume() {
 		return width*height*depth;
+
 	}
 
 	public static void main(String[] args) {
